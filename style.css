@@ -1,0 +1,26 @@
+*{ 
+margin: 0;
+padding: 0; 
+box-sizing: border-box;
+}
+
+header{ 
+  background-color :rgb(185, 252, 0);
+  color: #fff
+}
+div{
+  font-weight: bold;
+  color: blue;
+}
+p1{
+  font-weight: bold;
+  color: brown;
+}
+h1{
+  color:blueviolet
+}
+footer{
+text-align: center;
+color: blanchedalmond; 
+background-color: black;
+}
