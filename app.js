@@ -2,11 +2,9 @@ var correct= prompt("How many countires in the world?")
 var h= 195
 while(correct != h){
    user1 = prompt("Please write a correct answer!");
-   var correct = user1;}
-   
-
- 
+   var correct = user1;} 
 var useranswer = prompt("Are you interested of WINNING an AWARD? type yes to go next")
+var useranswer = prompt("Are interested of WINNING an AWARD?")
 var x = "yes"
 if(useranswer == x){
   alert("answer the following question!!")
@@ -17,8 +15,12 @@ if(useranswer == x){
     var answer = user2;
   } alert("YOUR ANSWER IS CORRECT");
     console.log("your answer is correct");
+  while(answer == y){
+    alert("YOUR ANSWER IS CORRECT")
+    console.log("your answer is correct")
+    break
+  }
 }
-
 var attempt = prompt("How many picture do you see in this web page?? isn't = 5")
 for(var i = 0 ; i < attempt ; i++){
 document.write('<a>' + '<image src=s.jpg>' + '<a>')}
